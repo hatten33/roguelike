@@ -73,7 +73,7 @@ class CursesRenderer(renderer.Renderer):
                         canvas.addnstr(y, x, tile.char, 1, colors['dark_wall'])
 
         for entity in sorted(entities, key=lambda x: x.render_order.value):
-            self.draw_entity(canvas, entity fov)
+            self.draw_entity(canvas, entity, fov)
 
 
         # Panel Rendering
