@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pyrogue",
-    version="0.0.1",
+    version="0.0.2",
     author="Will Butler",
     author_email="will@aerenserve.net",
     description="An extensible nethack style roguelike",
